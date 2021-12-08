@@ -2,7 +2,7 @@ Lioudmila Krylova
 Contacts
 Location: Vilnius, Lithuania
 Phone: +370 60925476
-Email: kryvetskistud@gmail.com
+Email: une_dina@mail.ru
 GitHub: kryvetski-andrei
 About Me
 I have good interpersonal skills, am an excellent team worker and very willing to learn and develop new skills.
