@@ -47,8 +47,9 @@ this CV
 + Basic of WEB (html, css, SQL) (SkillUP)
 ---
 ## Languages:
-*English* - Intermediate (B1 express test www.efset.org) 
-![](/Eng_test.png) 
+*English* - Intermediate (B1 express test www.efset.org)  
+
+![](Eng_test.png) 
 
 *Russian* - Native  
 
