@@ -1,5 +1,5 @@
 # Lioudmila Krylova  
----
+
 ### Contacts
 **Location**: Vilnius, Lithuania  
 
@@ -20,29 +20,34 @@ I'm scared to death and just trying to survive. If I fail to master the frontend
 * HTML
 * CSS/SASS
 * JavaScript (Basic)
-* Github
+* Github  
+
 ---
 ### Code Example
 	function createPhoneNumber(numbers){
  		let a = "(" + numbers[0] + numbers[1] + numbers[2] + ")" + " " + numbers[3]
- 	+ numbers[4] + numbers[5] + "-" + numbers[6] + numbers[7] + numbers[8] + numbers[9] ;
+ 			+ numbers[4] + numbers[5] + "-" + numbers[6] + numbers[7] + numbers[8] + numbers[9] ;
  	 	return a;
-	}
+	}  
+
 ---
 ### Work experience
-[CV](https://klvklv.github.io/rsschool-cv/cv)
+[CV](https://klvklv.github.io/rsschool-cv/cv)  
+
 
 ---
 ### Education
 * *1999 – 2000* The Moscow school of social and economic science (MA Sociology)
 * *1998 – 1999* Post-graduate of the research institute of the Ministry of Economy of Belarus 
-* *1992 – 1996* Institute of Modern Knowledge named after A.M. Shirokov (Finance)
+* *1992 – 1996* Institute of Modern Knowledge named after A.M. Shirokov (Finance)  
+
 ---
 ### Courses:
 + HTML and CSS (HTML Academy, W3School - in progress)
 + JavaScript Manual on learnjavascript.ru (in progress)
 + Testing software (SkillUP)
-+ Basic of WEB (html, css, SQL) (SkillUP)
++ Basic of WEB (html, css, SQL) (SkillUP)  
+
 ---
 ### Languages:
 *English* - Intermediate (B1 express test www.efset.org)  
