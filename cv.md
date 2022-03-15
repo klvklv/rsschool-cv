@@ -21,25 +21,36 @@ I'm scared to death and just trying to survive. If I fail to master the frontend
 * CSS/SASS
 * JavaScript (Basic)
 * Github  
+---
+## Code Example
+	function numberOfPairs(gloves)
+	{
+	   let arr = gloves.slice();
+	   arr.sort();
+	   let count = 0;
+	   for(let i = 0; i < arr.length-1; i++) {
+		if(arr[i] == arr[i+1]) {
+		   count++;
+		   i++;
+		   }
+		}
+	   return count;
+	}
+---
+## Work experience
+[CV](https://klvklv.github.io/rsschool-cv/)
+[Portfolio](https://rolling-scopes-school.github.io/klvklv-JSFEPRESCHOOL/Portfolio/)
+[Eco sounds](https://rolling-scopes-school.github.io/klvklv-JSFEPRESCHOOL/eco-sounds/)
+[Image gallery](https://rolling-scopes-school.github.io/klvklv-JSFEPRESCHOOL/image-galery/)
+[Memory game](https://rolling-scopes-school.github.io/klvklv-JSFEPRESCHOOL/memory-game/)  
 
 ---
-### Code Example
-	function createPhoneNumber(numbers){
- 		let a = "(" + numbers[0] + numbers[1] + numbers[2] + ")" + " " + numbers[3]
- 			+ numbers[4] + numbers[5] + "-" + numbers[6] + numbers[7] + numbers[8] + numbers[9] ;
- 	 	return a;
-	}  
-
----
-### Work experience
-[CV](https://klvklv.github.io/rsschool-cv/cv)  
-
-
----
-### Education
-* *1999 – 2000* The Moscow school of social and economic science (MA Sociology)
-* *1998 – 1999* Post-graduate of the research institute of the Ministry of Economy of Belarus 
-* *1992 – 1996* Institute of Modern Knowledge named after A.M. Shirokov (Finance)  
+## Education
+* The Moscow school of social and economic science
+(MA Sociology)
+* Post-graduate of the research institute of the Ministry of Economy of Belarus 
+* Institute of Modern Knowledge named after A.M. Shirokov 
+(Finance)
 
 ---
 ### Courses:
