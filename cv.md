@@ -1,6 +1,6 @@
 # Lioudmila Krylova  
----
-## Contacts
+
+### Contacts
 **Location**: Vilnius, Lithuania  
 
 **Phone**: +370 60925476  
@@ -12,15 +12,15 @@
  [LinkedIn](https://www.linkedin.com/feed/?trk=onboarding-landing/)  
 
 ---
-## About Me
+### About Me
 I'm scared to death and just trying to survive. If I fail to master the frontend, I'll have to work as a cleaner. This fact  motivate me strong, but it does not add confidence in luck. I understand that I have to write in this section something correct from the point of view of the HR. But I write the truth. Nobody will read it anyway.
 
 ---
-## Skills
+### Skills
 * HTML
 * CSS/SASS
 * JavaScript (Basic)
-* Github
+* Github  
 ---
 ## Code Example
 	function numberOfPairs(gloves)
@@ -51,14 +51,16 @@ I'm scared to death and just trying to survive. If I fail to master the frontend
 * Post-graduate of the research institute of the Ministry of Economy of Belarus 
 * Institute of Modern Knowledge named after A.M. Shirokov 
 (Finance)
+
 ---
-## Courses:
+### Courses:
 + HTML and CSS (HTML Academy, W3School - in progress)
-+ JavaScript Manual on learnjavascript.ru (in progress)L
++ JavaScript Manual on learnjavascript.ru (in progress)
 + Testing software (SkillUP)
-+ Basic of WEB (html, css, SQL) (SkillUP)
++ Basic of WEB (html, css, SQL) (SkillUP)  
+
 ---
-## Languages:
+### Languages:
 *English* - Intermediate (B1 express test www.efset.org)  
 
 ![](Eng_test.png) 
