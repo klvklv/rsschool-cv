@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="style.css">
+	<link rel="shortcut icon" type="text/css" href="icon/favicon.ico">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>CV_klvklv</title>
+</head>
+
+<body>
+
+	<!--Header-->
+	<header class="header">
+		<div class="container">
+			<div class="header__inner">
+				<div class="header__logo">
+					<img src="img/cv_logo_10.png" alt="CV">
+				</div>
+
+				<nav class="nav">
+					<ul class="nav__list">
+					   <li class="nav__item"><a href="#about_link" class="nav__link">About Me</a></li>
+					   <li class="nav__item"><a href="#skills_link" class="nav__link">skills</a></li>
+					   <li class="nav__item"><a href="#code_link" class="nav__link">Code Example</a></li>
+					   <li class="nav__item"><a href="#work_link" class="nav__link">Work experience</a></li>
+					   <li class="nav__item"><a href="#education_link" class="nav__link">Education</a></li>
+					   <li class="nav__item"><a href="#courses_link" class="nav__link">Courses</a></li>
+					   <li class="nav__item"><a href="#contacts_link" class="nav__link">Contacts</a></li>
+					</ul>
+				</nav>
+				<button class="burger" type="button">
+					<span class="burger__item">Menu</span>
+				</button>
+
+			</div>
+
+		</div>
+	</header>
+
+	<!--Intro-->
+	<div class="intro">
+		<div class="container">
+			<div class="intro__inner">
+				<div class="intro__photo">
+					<img class="photo__item" src="img/AvatarCV.png" alt="My photo">
+				</div>
+				<div class="intro__name">
+					<h1 class="name">Lioudmila Krylova</h1>
+					<div class="prof">future front-end developer</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!--Main-->
+	<main class="container">
+		<div class="main-container">
+			<section class="main">
+				<div class="section-thin" id="skills_link">
+					<h2 class="section__title">skills</h2>
+						<ul class="section__list">
+							<li class="list__item">
+								<img class="list__icon" src="icon/html1.png" alt="HTML">
+								<div class="list__text">HTML</div>
+							</li>
+							<li class="list__item">
+								<img class="list__icon" src="icon/css-31.png" alt="CSS">
+								<div class="list__text">CSS</div>
+							</li>
+							<li class="list__item">
+								<img class="list__icon" src="icon/sass1.png" alt="SASS">
+								<div class="list__text">SASS</div>
+							</li>
+							<li class="list__item">
+								<img class="list__icon" src="icon/js1.png" alt="JS">
+								<div class="list__text">JavaScript (Basic)</div>
+							</li>
+							<li class="list__item">
+								<img class="list__icon" src="icon/github1.png" alt="Github">
+								<div class="list__text">Github</div>
+							</li>
+						</ul>
+				</div>
+				<div class="section-thick" id="about_link">
+					<h2 class="section__title">about me</h2>
+						<div class="section__text">
+							I'm scared to death and just trying to survive. If I fail to master the frontend, I'll have to
+							work as a cleaner. This fact motivate me strong, but it does not add confidence in luck. I understand
+							that I have to write in his section something correct from the point of view of the HR. But I
+							write	the truth. Nobody will read it anyway.
+						</div>
+				</div>
+			</section>
+			
+			<section class="main">
+				<div class="section-thin" id="languages">
+					<h2 class="section__title">languages</h2>
+					<div class="section__lang">
+						<div class="lang">English</div>
+						<div class="lang-level">- Intermediate</div>
+					</div>
+					<div class="section__lang">(B1 express test www.efset.org)</div>
+					<div class="section__lang">
+						<div class="lang">Russian</div>
+						<div class="lang-level">- Native</div>
+					</div>
+					<div class="section__lang">
+						<div class="lang">French</div>
+						<div class="lang-level">- Pre Intermediate (A2)</div>
+					</div>
+				</div>
+			
+
+				<div class="section-thick" id="code_link">
+					<h2 class="section__title">code example</h2>
+					<div class="pre__code">
+							<pre data-trimmed="true">
+								<code data-language="JavaScript">
+	function numberOfPairs(gloves)
+	{
+	   let arr = gloves.slice();
+	   arr.sort();
+	   let count = 0;
+	   for(let i = 0; i < arr.length-1; i++) {
+		if(arr[i] == arr[i+1]) {
+		   count++;
+		   i++;
+		   }
+		}
+	   return count;
+	}</code>
+							</pre>
+						</div>
+				</div>
+			</section>
+				
+			
+			<section class="main">
+				<div class="section-thin" id="contacts_link">
+					<h2 class="section__title">contacts</h2>
+						<ul class="section__list">
+							<li class="list__item">
+								<img class="list__icon" src="icon/home1.png" alt="Address">
+								<div class="list__text">Vilnius, Lithuania</div>
+							</li>
+							<li class="list__item">
+								<img class="list__icon" src="icon/telephone1.png" alt="Phone">
+								<div class="list__text">+370 60925476</div>
+							</li>
+							<li class="list__item">
+								<a class="item__img" href="mailto:une_dina@mail.ru">
+									<img class="list__icon" src="icon/email1.png" alt="Email">
+									<div class="list__text">une_dina@mail.ru</div>
+								</a>
+							</li>
+							<li class="list__item">
+								<a class="item__img" href="https://github.com/klvklv" target="_blank">
+									<img class="list__icon" src="icon/github1.png" alt="GitHub">
+									<div class="list__text">GitHub</div>
+								</a>
+							</li>
+							<li class="list__item">
+								<a class="item__img" href="https://discord.com/channels" target="_blank">
+									<img class="list__icon" src="icon/discord1.png" alt="Discord">
+									<div class="list__text">klvklv (@klvklv)</div>
+								</a>
+							</li>
+							<li class="list__item">
+								<a class="item__img" href="https://www.linkedin.com/in/lioudmila-krylova-90705214a/" target="_blank">
+									<img class="list__icon" src="icon/linkedin1.png" alt="LinkedIn">
+									<div class="list__text">LinkedIn</div>
+								</a>
+							</li>
+						</ul>
+				</div>
+
+				<div class="section-thick" id="work_link">
+					<h2 class="section__title" >work experience</h2>
+					
+					<div class="section__works">
+						<div class="works">
+							<div class="works__item">
+								<img src="img/Portfolio.png" alt="Portfolio" class="works__prscr">
+								<div class="works__content">
+									<a class="works__title" href="https://rolling-scopes-school.github.io/klvklv-JSFEPRESCHOOL/Portfolio/" target="_blank">Portfolio</a>
+								</div>
+							</div>
+							<div class="works__item">
+								<img src="img/Eco sounds.png" alt="Eco sounds" class="works__prscr">
+								<div class="works__content">
+									<a class="works__title" href="https://rolling-scopes-school.github.io/klvklv-JSFEPRESCHOOL/eco-sounds/" target="_blank">Eco sounds</a>
+								</div>
+							</div>
+							<div class="works__item">
+								<img src="img/Image gallery.png" alt="Image gallery" class="works__prscr">
+								<div class="works__content">
+									<a class="works__title" href="https://rolling-scopes-school.github.io/klvklv-JSFEPRESCHOOL/image-galery/" target="_blank">Image gallery</a>
+								</div>
+							</div>
+							<div class="works__item">
+								<img src="img/Memory game.png" alt="Memory game" class="works__prscr">
+								<div class="works__content">
+									<a class="works__title" href="https://rolling-scopes-school.github.io/klvklv-JSFEPRESCHOOL/memory-game/" target="_blank">Memory game</a>
+								</div>
+							</div>
+						</div>
+						keep learning...
+					</div>
+				</div>
+			</section>
+
+			<section class="main">
+				<div class="section-thin"></div>
+				<div class="section-thick" id="education_link">
+					<h2 class="section__title">education</h2>
+						<ul class="section__list">
+							<li class="list__item">
+								<img class="list__check" src="icon/check_yellow.png" alt="icon">
+								<div class="list__text">The Moscow school of social and economic science (MA Sociology)</div>
+							</li>
+							<li class="list__item">
+								<img class="list__check" src="icon/check_yellow.png" alt="icon">
+								<div class="list__text">Post-graduate of the research institute of the Ministry of Economy of Belarus</div>
+							</li>
+							<li class="list__item">
+								<img class="list__check" src="icon/check_yellow.png" alt="icon">
+								<div class="list__text">Institute of Modern Knowledge named after A.M. Shirokov (Finance)</div>
+							</li>
+						</ul>
+				</div>
+			</section>
+					
+			<section class="main">
+				<div class="section-thin"></div>
+				<div class="section-thick" id="courses_link">
+					<h2 class="section__title">courses</h2>
+						<ul class="section__list">
+							<li class="list__item">
+								<img class="list__check" src="icon/rhombus_yellow.png" alt="icon">
+								<div class="list__text">HTML and CSS (HTML Academy, W3School - in progress)</div>
+							</li>
+							<li class="list__item">
+								<img class="list__check" src="icon/rhombus_yellow.png" alt="icon">
+								<div class="list__text">JavaScript Manual on learnjavascript.ru (in progress)</div>
+							</li>
+							<li class="list__item">
+								<img class="list__check" src="icon/rhombus_yellow.png" alt="icon">
+								<div class="list__text">Testing software (SkillUP)</div>
+							</li>
+							<li class="list__item">
+								<img class="list__check" src="icon/rhombus_yellow.png" alt="icon">
+								<div class="list__text">Basic of WEB (html, css, SQL) (SkillUP)</div>
+							</li>
+						</ul>
+				</div>
+			</section>		
+			
+		</div>
+	</main>
+	
+	<footer>
+		<div class="container">
+			<div class="footer__inner">
+				<a class="footer__item" href="https://github.com/klvklv" target="_blank">
+					<img class="footer__icon" src="icon/github.png" alt="GitHub">
+					<div class="footer__text"></div>
+				</a>
+				<div class="footer__text">
+					2022
+				</div>
+				<a class="footer__item" href="https://rs.school/js/" target="_blank">
+					<img class="footer__icon1" src="icon/rs_school_js.svg" alt="GitHub">
+					<div class="footer__text"></div>
+				</a>
+			</div>
+		</div>
+	</footer>
+
+</body>
+
+</html>
