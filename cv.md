@@ -1,4 +1,4 @@
-# Lioudmila Krylova  
+# Lioudmila Krylova
 
 ### Contacts
 **Location**: Vilnius, Lithuania  
@@ -22,7 +22,7 @@ I'm scared to death and just trying to survive. If I fail to master the frontend
 * JavaScript (Basic)
 * Github  
 ---
-## Code Example
+### Code Example
 	function numberOfPairs(gloves)
 	{
 	   let arr = gloves.slice();
@@ -37,15 +37,15 @@ I'm scared to death and just trying to survive. If I fail to master the frontend
 	   return count;
 	}
 ---
-## Work experience
-[CV](https://klvklv.github.io/rsschool-cv/)
-[Portfolio](https://rolling-scopes-school.github.io/klvklv-JSFEPRESCHOOL/Portfolio/)
-[Eco sounds](https://rolling-scopes-school.github.io/klvklv-JSFEPRESCHOOL/eco-sounds/)
-[Image gallery](https://rolling-scopes-school.github.io/klvklv-JSFEPRESCHOOL/image-galery/)
-[Memory game](https://rolling-scopes-school.github.io/klvklv-JSFEPRESCHOOL/memory-game/)  
+### Work experience
+[CV](https://klvklv.github.io/rsschool-cv/)  
+[Portfolio](https://rolling-scopes-school.github.io/klvklv-JSFEPRESCHOOL/Portfolio/)  
+[Eco sounds](https://rolling-scopes-school.github.io/klvklv-JSFEPRESCHOOL/eco-sounds/)  
+[Image gallery](https://rolling-scopes-school.github.io/klvklv-JSFEPRESCHOOL/image-galery/)  
+[Memory game](https://rolling-scopes-school.github.io/klvklv-JSFEPRESCHOOL/memory-game/)    
 
 ---
-## Education
+### Education
 * The Moscow school of social and economic science
 (MA Sociology)
 * Post-graduate of the research institute of the Ministry of Economy of Belarus 
